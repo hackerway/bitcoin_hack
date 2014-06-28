@@ -4,7 +4,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy import create_engine
 
 mysql_url = URL(drivername='mysql+mysqlconnector', host='localhost',
-                database='ad_network', username='ad_network',
+                database='adbitise', username='adbitise',
                 password='oeNung0j')
 
 engine = create_engine(mysql_url)
